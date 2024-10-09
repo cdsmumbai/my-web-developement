@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form is  Html</title>
+    </head>
+    <body>
+        <!--forms-->
+        <form>
+            <label>User Name</label>
+            <!--<input type="text" placeholder="Plz enter  ur  User  name ">-->
+            <input type="datetime" placeholder="Plz enter  ur  User  name " required/>
+            <br/>
+            <br/>
+            <label>Password</label>
+            <input type="tpassword" placeholder="Plz enter  ur  User  name " required/>
+            <br/>
+            <br/>
+            <!--ctrl+alt_arrowkey(top/down)-->
+            <label>Gender</label>
+            <input type="radio" name="gender"/><label>Male</label>
+            <input type="radio" name="gender"/><label>FeMale</label>
+            <input type="radio" name="gender"/><label>Prefer Not  to Sasy</label>
+            <br/>
+            <br/>
+
+            <label>Select Courses Your Aware About:</laberl>
+            <!--<input type="checkbox"/><label>C</label>
+            <input type="checkbox"/><label>C++</label>
+            <input type="checkbox"/><label>Java</label>
+            <input type="checkbox"/><label>Python</label>-->
+
+            <!--<input type="checkbox" name=":course"/><label>C</label>
+            <input type="checkbox"name=":course"/><label>C++</label>
+            <input type="checkbox"name=":course"/><label>Java</label>
+            <input type="checkbox"name=":course"/><label>Python</label>-->
+
+            <input type="checkbox" value="c" name="course"/><label>C</label>
+            <input type="checkbox" value="cpp" name="course"/><label>C++</label>
+            <input type="checkbox"  value="java" name="course"/><label>Java</label>
+            <input type="checkbox" value="Py" name="course"/><label>Python</label>
+
+
+
+            <br/>
+            <br/>
+            <td><label> choose  Your  Course:</label></td>
+            <td><select>
+                <!--<option>Web Development</option>
+                <option>Data Science</option>
+                <option>Machine Learning</option>
+                <option>AI</option>
+                <option>Big Data</option>-->
+                <option value=""></option>   
+                <option value="Web">Web Development</option>
+                <option value="ds">Data Science</option>
+                <option value="ml">Machine Learning</option>
+                <option value="AI">AI</option>
+                <option value="bd">Big Data</option>
+
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>submit:</label></td>
+            <td><input type="submit"/></td>
+        </tr>
+        <tr>
+            <td><label>Reset:</label></td>
+            <td><input type="reset"/></td> 
+
+        </tr>
+    </table> 
+    <br/> 
+    <hr/>  
+    </form>
+    </body>    
+</html>

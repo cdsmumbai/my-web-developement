@@ -1,0 +1,75 @@
+/*h2{
+    background-color:  aqua;
+    color: white;
+    border: 2px dotted red;
+}*/
+/*
+h6 { background-color: black;
+    color : white;
+    border :2px solid red;
+    padding 15px;
+}*/
+
+/*
+.displayInCss1{
+    display: block;
+    background-color: yellow;
+    color : aqua;
+    height : 35px;
+    width: 40 px;    
+}
+.displayInCss2{
+    display: block;
+    background-color: red;
+    height : 45px;
+    color : white;
+}  
+.displayInCss1{
+    display: inline;
+    background-color: yellow;
+    color : aqua;
+    height : 35px;
+    width: 40 px;    
+}
+.displayInCss2{
+    display: inline;
+    background-color: red;
+    height : 45px;
+    color : white;
+}  */
+.displayInCss1{
+    display: inline-block;
+    background-color: yellow;
+    color : aqua;
+    /*height : 35px;
+    width: 40 px; */    
+}
+.displayInCss2{
+    display: inline-block;
+    background-color: red;
+    height : 45px;
+    width: 80px; 
+    color : white;
+}    
+/*
+.positionInCss{
+    position static; 
+    display: inline-block;
+    background-color: black;
+    /*height : 45px;
+    width: 80px; 
+    color : white;
+    border : 1px solid red;
+} */   
+.positionInCss{
+    /*position : relative;*/
+    position : static;
+    /*display: inline-block;*/
+    background-color: black;
+    top : 80px;
+    left : 30px;
+    /*height : 45px;
+    width: 80px;*/ 
+    color : white;
+    border : 1px solid red;
+}    

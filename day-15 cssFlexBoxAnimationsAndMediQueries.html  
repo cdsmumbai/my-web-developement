@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+
+<!DOCTYPE html>
+<html>
+   <head>
+   <title>Pseudo Classes  &  Pseudo Elements in Css </title>     
+        <link rel=""stylesheet" href="./day-14 cssPseudoClassesAndPseudoElements.css" />
+   </head>
+   <body>
+      <!-- PseudoClasses-->
+    <!--<button>Click On Me</button>-->

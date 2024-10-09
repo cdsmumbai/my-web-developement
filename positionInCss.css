@@ -1,0 +1,44 @@
+/*div {
+    position :fixed;
+    color : white;
+    background-color: black;
+    border :  1px solid red;
+    top : 15px;
+    left: 10px;
+}*/
+#parent {
+    position : relative;
+    height : 256px;
+    width : 250px;
+    border : 2px dashed black;
+
+}
+/*
+.position {
+    position : fixed;
+    color : white;
+    background-color: black;
+    border :  1px solid red;
+    top : 15px;
+    left: 10px;
+
+}*/
+.position {
+    position : sticky;
+    color : white;
+    background-color: black;
+    border :  1px solid red;
+    top : 15px;
+    left: 10px;
+
+}
+/*
+.position {
+    position : absolute;
+    color : white;
+    background-color: black;
+    border : 1px solid red;
+    top : 15px;
+    left: 10px;
+
+}*/

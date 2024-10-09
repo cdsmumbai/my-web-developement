@@ -1,0 +1,66 @@
+.parent{
+    height: 1150px;
+    background-color: black;
+    display : Flex;
+
+   /* flex-direction: column-reverse;*/
+   /*flex-direction: row;
+   flex-direction: row-reverse;*/
+   flex-direction: column;
+   gap: 10px;
+   justify-content: flex-start;
+   /*justify-content: flex-end;*/
+   /*justify-content: space-between; */
+   /*justify-content: space-evenly;*/
+   align-items: flex-end;
+   flex-wrap: wrap;
+   /* height: 100px;
+    width: 100px; */
+}
+.child {
+    height: 100px;
+    /*width: 100px; */
+    flex : 1;
+    background-color: aqua;
+    border: 2px solid brown;
+    margin-right:10px;
+    }
+    .demodiv{
+        background-color: blueviolet;
+    }
+    .child {
+         height: 100px;
+         /*width: 100px; */
+         flex : 2;
+         background-color: aqua;
+         border: 2px solid red;
+         margin-right:10px;
+         }
+         .demodiv{
+             background-color: blueviolet;
+         }
+
+    /* Animations*/
+    button{
+        background-color: black;
+        color: white;
+        margin: 20px;
+        padding:10px;
+        font: size 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition-delay: 500ms;
+        transition-duration: 300ms;
+        transition-property: background-color color;
+        transition-timing-function: linear;
+        transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    }     
+    button:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+       /* margin: 20px;
+        padding:10px;
+        font: size 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+*/
+    }     
