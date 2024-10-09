@@ -58,6 +58,7 @@ h1::after{
     height: 50px;
     background-color: black;
     border-radius: 50%;
+    /* position :relative;*/
 }
 .shape::before {
     content: " ";
@@ -65,7 +66,7 @@ h1::after{
     height:80px;
     margin: 100px;
     background-color: yellow;
-    position: absolute;  
+   /* position: absolute;*/  
     top: 0;
     left: 0;
     border-radius: 50%;

@@ -1,0 +1,44 @@
+@media only screen and (min-width: 800px){
+    h2{ color : blue
+    font-size:12.5px;}
+    p {color: green;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    h2{ color : yellow;
+         font-size: 15px;
+    }
+    p {color: brown;
+    }
+}
+/*
+@media only screen and (max-width: 600px){
+    h2{ color : blue;
+        font-size:20px;
+    }
+    p {color: brown;
+    }
+    }
+
+    @media only screen and (max-width: 1200px){
+        h2{ color : pink;
+        font-size:12.5px;}
+        p {color: green;
+        }
+    }
+    
+    @media only screen and (max-width: 800px){
+        h2{ color : yellow;
+             font-size: 15px;
+        }
+        p {color: brown;
+        }
+    }
+    @media only screen and (max-width: 600px){
+        h2{ color : blue;
+            font-size:20px;
+        }
+        p {color: brown;
+        }
+        }   */
